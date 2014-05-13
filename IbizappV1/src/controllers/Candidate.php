@@ -275,7 +275,7 @@ class Candidate extends MY_Session_Controller {
 		"iTotalDisplayRecords" => $rResult['count'],
 		"aaData" => array()
 	);
-	$output['aaData'] = $rResult['candidateList'];
-        echo json_encode( $output );
+	$output['aaData'] = $rResult['candidateList']
+        echo json_encode( $output )
     }
 }
