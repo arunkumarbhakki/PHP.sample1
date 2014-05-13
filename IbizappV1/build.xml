@@ -2,8 +2,6 @@
 <project name="name-of-project" default="build">
 <target name="build" depends="prepare,lint,phploc"/>
 
-<antcall target="phploc"/>
-
 <target name="clean" description="Cleanup build artifacts">
 <delete dir="${basedir}/build/api"/>
 <delete dir="${basedir}/build/coverage"/>
