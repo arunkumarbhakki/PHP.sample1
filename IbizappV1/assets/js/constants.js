@@ -1,1 +1,0 @@
-var absolute=location.protocol+'//'+location.hostname+':8888/IbizappV1/';
