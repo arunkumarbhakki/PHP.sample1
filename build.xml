@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project name="Ibiz" default="Copy">
-    <property name="base.dir" value="/Applications/MAMP/htdocs/ibiz"/>
+    <property name="base.dir" value="/Applications/MAMP/htdocs/Ibizapp"/>
 	<!--property name="src.dir" value="Ibizapp"/-->
         
         <target name="delete">
