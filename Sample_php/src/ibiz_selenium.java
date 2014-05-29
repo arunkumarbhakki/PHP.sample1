@@ -55,7 +55,7 @@ public class ibiz_selenium {
     }
     driver.findElement(By.linkText("Contacts")).click();
     try {
-      assertEquals("i-Bizsuite-Contact", driver.getTitle());
+      assertEquals("i-Bizsuite-Co", driver.getTitle());
     } catch (Error e) {
       verificationErrors.append(e.toString());
     }
